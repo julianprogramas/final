@@ -1,0 +1,212 @@
+/*main*/
+/*Mapas*/
+.color-twitter {
+  color: #0b6dbd; }
+
+.color-facebook {
+  color: #3B5998; }
+
+.color-instagram {
+  color: #125688; }
+
+.color-youtube {
+  color: #bb0000; }
+
+.color-linkedin {
+  color: #007bb5; }
+
+.color-snapchat {
+  color: #fffc00; }
+
+.color-whatsApp {
+  color: #4dc247; }
+
+/* Extend */
+.boton, .boton-primario, .boton-secundario {
+  font-size: 1.5em;
+  border: solid 2px;
+  padding: 8px 16px;
+  margin: 8px;
+  text-decoration: none; }
+
+.boton-primario {
+  background-color: #061986;
+  color: white; }
+
+.boton-secundario {
+  background-color: #0c3ab8;
+  color: white; }
+
+/*mixin  */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  text-align: center;
+  background: wheat; }
+  main h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: crimson; }
+  main .contenedor-main {
+    text-align: center;
+    background: wheat; }
+    main .contenedor-main .noticias-main {
+      margin-top: 30px; }
+      main .contenedor-main .noticias-main h2 {
+        color: green; }
+      main .contenedor-main .noticias-main p {
+        color: darkmagenta; }
+      main .contenedor-main .noticias-main img {
+        height: 50%;
+        width: 50%; }
+    main .contenedor-main .noticias {
+      margin-top: 30px; }
+      main .contenedor-main .noticias p {
+        color: darkmagenta; }
+      main .contenedor-main .noticias img {
+        height: 50%;
+        width: 50%; }
+
+/*Mapas*/
+.color-twitter {
+  color: #0b6dbd; }
+
+.color-facebook {
+  color: #3B5998; }
+
+.color-instagram {
+  color: #125688; }
+
+.color-youtube {
+  color: #bb0000; }
+
+.color-linkedin {
+  color: #007bb5; }
+
+.color-snapchat {
+  color: #fffc00; }
+
+.color-whatsApp {
+  color: #4dc247; }
+
+/* Extend */
+.boton, .boton-primario, .boton-secundario {
+  font-size: 1.5em;
+  border: solid 2px;
+  padding: 8px 16px;
+  margin: 8px;
+  text-decoration: none; }
+
+.boton-primario {
+  background-color: #061986;
+  color: white; }
+
+.boton-secundario {
+  background-color: #0c3ab8;
+  color: white; }
+
+/*mixin  */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #925a12;
+  padding: 20px 0;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin: auto; }
+  footer .cajas-footer > {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    width: 20%; }
+  footer .cajas-footer img {
+    width: 25%; }
+  footer .cajas-footer h4 {
+    color: #2e0792;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+  footer .cajas-footer a {
+    text-decoration: none;
+    display: block;
+    color: rgba(245, 222, 179, 0.727);
+    font-size: 20px;
+    font-weight: 300;
+    transition: ease-in-out .3s;
+    margin-bottom: 10px; }
+  footer .link-footer :hover {
+    color: #ff0011; }
+  footer .cajas-footer i {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: ease-in-out .3s; }
+  footer .iconos-redes i:hover {
+    color: blue;
+    background-color: aqua; }
+
+/*Mapas*/
+.color-twitter {
+  color: #0b6dbd; }
+
+.color-facebook {
+  color: #3B5998; }
+
+.color-instagram {
+  color: #125688; }
+
+.color-youtube {
+  color: #bb0000; }
+
+.color-linkedin {
+  color: #007bb5; }
+
+.color-snapchat {
+  color: #fffc00; }
+
+.color-whatsApp {
+  color: #4dc247; }
+
+/* Extend */
+.boton, .boton-primario, .boton-secundario {
+  font-size: 1.5em;
+  border: solid 2px;
+  padding: 8px 16px;
+  margin: 8px;
+  text-decoration: none; }
+
+.boton-primario {
+  background-color: #061986;
+  color: white; }
+
+.boton-secundario {
+  background-color: #0c3ab8;
+  color: white; }
+
+/*mixin  */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+.cartas {
+  text-align: center;
+  justify-content: center;
+  background-color: aqua; }

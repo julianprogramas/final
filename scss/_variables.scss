@@ -1,0 +1,59 @@
+/*Mapas*/
+
+$redes: (
+    twitter: #0b6dbd,
+    facebook:#3B5998,
+    instagram:#125688,
+    youtube:#bb0000,
+    linkedin:#007bb5,
+    snapchat:#fffc00,
+    whatsApp:#4dc247,
+
+);
+
+@each $red, $color in $redes {
+    .color-#{$red}{
+        color:$color;
+    }
+}
+
+/* Extend */
+.boton{
+    font-size: 1.5em;
+    border: solid 2px;
+    padding: 8px 16px;
+    margin: 8px;
+    text-decoration: none;
+   }
+
+   .boton-primario{
+    @extend.boton;
+
+    background-color: #061986;
+    color: white;
+   }
+
+   .boton-secundario{
+        @extend .boton;
+        background-color: #0c3ab8;
+        color: white;
+        
+   }
+
+
+   /*mixin  */
+
+   @mixin size ($alto, $ancho , $espaciado){
+       margin: $espaciado;
+       padding: $espacio;
+       box-sizing: $caja;
+ *{
+        @include size( 0, 0, border-box )
+       }
+   }
+
+    *{
+    margin: 0px;
+    padding: 0;
+     box-sizing: border-box;
+ }

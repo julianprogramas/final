@@ -1,0 +1,50 @@
+/*main*/
+@import"variables";
+
+main {
+    text-align: center;
+    background: wheat;
+
+    h1 {
+        font-size: 50px;
+        font-family: cursive;
+        color: crimson;
+        
+    }
+
+    .contenedor-main {
+        text-align: center;
+        background: wheat;
+
+        .noticias-main {
+            margin-top: 30px;
+
+            h2 {
+                color: green;
+            }
+
+            p {
+                color: darkmagenta;
+            }
+
+            img {
+                height: 50%;
+                width: 50%;
+            }
+
+        }
+
+        .noticias {
+            margin-top: 30px;
+
+            p {
+                color: darkmagenta;
+            }
+
+            img {
+                height: 50%;
+                width: 50%;
+            }
+        }
+    }
+}
