@@ -1,48 +1,4 @@
 /*main*/
-/*Mapas*/
-.color-twitter {
-  color: #0b6dbd; }
-
-.color-facebook {
-  color: #3B5998; }
-
-.color-instagram {
-  color: #125688; }
-
-.color-youtube {
-  color: #bb0000; }
-
-.color-linkedin {
-  color: #007bb5; }
-
-.color-snapchat {
-  color: #fffc00; }
-
-.color-whatsApp {
-  color: #4dc247; }
-
-/* Extend */
-.boton, .boton-primario, .boton-secundario {
-  font-size: 1.5em;
-  border: solid 2px;
-  padding: 8px 16px;
-  margin: 8px;
-  text-decoration: none; }
-
-.boton-primario {
-  background-color: #061986;
-  color: white; }
-
-.boton-secundario {
-  background-color: #0c3ab8;
-  color: white; }
-
-/*mixin  */
-* {
-  margin: 0px;
-  padding: 0;
-  box-sizing: border-box; }
-
 main {
   text-align: center;
   background: wheat; }
