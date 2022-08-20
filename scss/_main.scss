@@ -1,15 +1,104 @@
 /*main*/
 
-
 main {
     text-align: center;
     background: wheat;
 
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        background-color: wheat;
+
+        .logo {
+            margin: 0;
+            padding: 20px 30px;
+            font-weight: bold;
+            background: darkred;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                color: darkgoldenrod;
+                font-weight: bold;
+                padding: 5px 12px;
+                text-decoration: none;
+                font-weight: bold;
+
+            }
+
+        }
+
+        #hero {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            height: 110vh;
+            color: white;
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.753),
+                    rgba(0, 0, 0, 0.753)), url("../fotos/cancha1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            button {
+                font-size: 1em;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 10px;
+                box-shadow: 1px, 2px, 10px rgba(0, 0, 0, 0.753);
+                background: darkgoldenrod;
+                color: red;
+
+                a {
+                    text-decoration: none;
+                }
+
+            }
+        }
+
+        #nuestro-club {
+            h2 {
+                font-size: 65px;
+            }
+
+            text-align: center;
+            padding: 200px 12px;
+            font-size: 45px;
+        }
+
+        #nosotros {
+            h2 {
+                font-size: 75px;
+            }
+
+            .conteiner {
+
+                font-family: cursive;
+                font-size: 35px;
+
+                ul {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    /*CIDECO NOTICIAS*/
     h1 {
         font-size: 50px;
         font-family: cursive;
         color: crimson;
-        
+
     }
 
     .contenedor-main {
@@ -44,6 +133,66 @@ main {
             img {
                 height: 50%;
                 width: 50%;
+            }
+        }
+    }
+}
+
+
+/* UBICACION*/
+
+main {
+    #ubi {
+        text-align: center;
+
+        h2 {
+            color: darkred;
+            font-size: 50px;
+        }
+
+        .imagen-ubi img {
+            margin: auto;
+            width: 70%;
+            height: 70%;
+            padding: 50px;
+            margin: 20px;
+            border: 1px darkcyan solid;
+            border-radius: 55px;
+        }
+    }
+
+}
+
+/* Campeonatos */
+
+main {
+
+    #campeonatos {
+
+        ul {
+            padding: 0px 0px;
+            text-align: start;
+            list-style: none;
+
+            li {
+
+                text-decoration: none;
+
+            }
+        }
+    }
+
+}
+
+/*Tabla*/
+
+main {
+    #tabla {
+        .tabla-general {
+            .escudo {
+                img {
+                    height: 50px;
+                }
             }
         }
     }

@@ -1,4 +1,3 @@
-
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -10,59 +9,65 @@ footer {
 
 
 
-.cajas-footer> {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    text-decoration: none;
-    width: 20%;
+    .cajas-footer> {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        text-decoration: none;
+        width: 20%;
 
-}
+    }
 
-.cajas-footer img {
-    width: 25%;
-}
+    .cajas-footer img {
+        width: 25%;
+    }
 
-.cajas-footer h4 {
-    color: rgb(46, 7, 146);
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 30px;
+    .cajas-footer h4 {
+        color: rgb(46, 7, 146);
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 30px;
 
-}
+    }
 
-.cajas-footer a {
-    text-decoration: none;
-    display: block;
-    color: rgba(245, 222, 179, 0.727);
-    font-size: 20px;
-    font-weight: 300;
-    transition: ease-in-out .3s;
-    margin-bottom: 10px;
-}
+    .cajas-footer a {
+        text-decoration: none;
+        display: block;
+        color: rgba(245, 222, 179, 0.727);
+        font-size: 20px;
+        font-weight: 300;
+        transition: ease-in-out .3s;
+        margin-bottom: 10px;
+    }
 
-.link-footer :hover {
-    color: rgb(255, 0, 17);
+    .link-footer :hover {
+        color: rgb(255, 0, 17);
 
-}
+    }
 
-.cajas-footer i {
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 38px;
-    height: 38px;
-    line-height: 36px;
-    cursor: pointer;
-    margin-top: 20px;
-    text-align: center;
-    transition: ease-in-out .3s;
-}
+    .cajas-footer a {
+        display: inline-block;
+         i {
+            display: inline-block;
+            font-size: 20px;
+            color: white;
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 38px;
+            height: 38px;
+            line-height: 36px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-align: center;
+            transition: ease-in-out .3s;
+        }
 
-.iconos-redes i:hover {
-    color: blue;
-    background-color: aqua;
-}
+    }
+
+
+
+    .iconos-redes i:hover {
+        color: blue;
+        background-color: aqua;
+    }
 }

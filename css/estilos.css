@@ -1,7 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: gold; }
+
 /*main*/
 main {
   text-align: center;
-  background: wheat; }
+  background: wheat;
+  /*CIDECO NOTICIAS*/ }
+  main .conteiner {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat; }
+    main .conteiner .logo {
+      margin: 0;
+      padding: 20px 30px;
+      font-weight: bold;
+      background: darkred;
+      display: flex;
+      justify-content: space-between; }
+      main .conteiner .logo a {
+        color: darkgoldenrod;
+        font-weight: bold;
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold; }
+    main .conteiner #hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      height: 110vh;
+      color: white;
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.753)), url("../fotos/cancha1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+      main .conteiner #hero button {
+        font-size: 1em;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 1px, 2px, 10px rgba(0, 0, 0, 0.753);
+        background: darkgoldenrod;
+        color: red; }
+        main .conteiner #hero button a {
+          text-decoration: none; }
+    main .conteiner #nuestro-club {
+      text-align: center;
+      padding: 200px 12px;
+      font-size: 45px; }
+      main .conteiner #nuestro-club h2 {
+        font-size: 65px; }
+    main .conteiner #nosotros h2 {
+      font-size: 75px; }
+    main .conteiner #nosotros .conteiner {
+      font-family: cursive;
+      font-size: 35px; }
+      main .conteiner #nosotros .conteiner ul {
+        list-style: none; }
+        main .conteiner #nosotros .conteiner ul a {
+          text-decoration: none; }
   main h1 {
     font-size: 50px;
     font-family: cursive;
@@ -26,49 +89,32 @@ main {
         height: 50%;
         width: 50%; }
 
-/*Mapas*/
-.color-twitter {
-  color: #0b6dbd; }
+/* UBICACION*/
+main #ubi {
+  text-align: center; }
+  main #ubi h2 {
+    color: darkred;
+    font-size: 50px; }
+  main #ubi .imagen-ubi img {
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    padding: 50px;
+    margin: 20px;
+    border: 1px darkcyan solid;
+    border-radius: 55px; }
 
-.color-facebook {
-  color: #3B5998; }
+/* Campeonatos */
+main #campeonatos ul {
+  padding: 0px 0px;
+  text-align: start;
+  list-style: none; }
+  main #campeonatos ul li {
+    text-decoration: none; }
 
-.color-instagram {
-  color: #125688; }
-
-.color-youtube {
-  color: #bb0000; }
-
-.color-linkedin {
-  color: #007bb5; }
-
-.color-snapchat {
-  color: #fffc00; }
-
-.color-whatsApp {
-  color: #4dc247; }
-
-/* Extend */
-.boton, .boton-primario, .boton-secundario {
-  font-size: 1.5em;
-  border: solid 2px;
-  padding: 8px 16px;
-  margin: 8px;
-  text-decoration: none; }
-
-.boton-primario {
-  background-color: #061986;
-  color: white; }
-
-.boton-secundario {
-  background-color: #0c3ab8;
-  color: white; }
-
-/*mixin  */
-* {
-  margin: 0px;
-  padding: 0;
-  box-sizing: border-box; }
+/*Tabla*/
+main #tabla .tabla-general .escudo img {
+  height: 50px; }
 
 footer {
   display: flex;
@@ -101,19 +147,21 @@ footer {
     margin-bottom: 10px; }
   footer .link-footer :hover {
     color: #ff0011; }
-  footer .cajas-footer i {
-    display: inline-block;
-    font-size: 20px;
-    color: white;
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 38px;
-    height: 38px;
-    line-height: 36px;
-    cursor: pointer;
-    margin-top: 20px;
-    text-align: center;
-    transition: ease-in-out .3s; }
+  footer .cajas-footer a {
+    display: inline-block; }
+    footer .cajas-footer a i {
+      display: inline-block;
+      font-size: 20px;
+      color: white;
+      border: 1px solid black;
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      line-height: 36px;
+      cursor: pointer;
+      margin-top: 20px;
+      text-align: center;
+      transition: ease-in-out .3s; }
   footer .iconos-redes i:hover {
     color: blue;
     background-color: aqua; }
@@ -166,3 +214,14 @@ footer {
   text-align: center;
   justify-content: center;
   background-color: aqua; }
+
+/*Media tabla*/
+@media (max-width: 750px) {
+  main #tabla .tabla-general table tbody tr td.escudo img {
+    height: 0px; } }
+
+@media (max-width: 750px) {
+  main #tabla {
+    font-size: 9px; }
+    main #tabla .tabla-general table {
+      padding-top: 150px; } }

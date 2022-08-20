@@ -1,0 +1,23 @@
+/*Media tabla*/ 
+@media (max-width:750px) {
+    main #tabla .tabla-general table tbody tr td.escudo img {
+        height: 0px;
+
+    }
+
+}
+
+@media (max-width:750px) {
+    main #tabla {
+        font-size: 9px;
+        
+
+        .tabla-general {
+            table {
+
+                padding-top: 150px;
+
+            }
+        }
+    }
+}
