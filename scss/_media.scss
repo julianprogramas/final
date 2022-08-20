@@ -1,23 +1,50 @@
 /*Media tabla*/ 
-@media (max-width:750px) {
+@media (max-width:2560px) {
+    main #tabla {
+        font-size: 38px;
+        
+    }
+}
+
+
+@media (max-width:1000px) {
+    main #tabla {
+        font-size: 30px;
+        
+    }
+}
+@media (max-width:660px) {
+    main #tabla {
+        font-size: 25px;
+        
+    }
+}
+
+@media (max-width:530px) {
+    main #tabla {
+        font-size: 18px;
+        
+    }
+}
+@media (max-width:340px) {
+    main #tabla {
+        font-size: 10px;
+        
+    }
+}
+@media (max-width:500px) {
     main #tabla .tabla-general table tbody tr td.escudo img {
         height: 0px;
 
     }
 
 }
+/*Titulos*/
 
-@media (max-width:750px) {
-    main #tabla {
-        font-size: 9px;
-        
+@media (min-width:750px) {
+    #campeonatos .campeon {
+        font-size: 2.5em;
 
-        .tabla-general {
-            table {
-
-                padding-top: 150px;
-
-            }
-        }
     }
+
 }
